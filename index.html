@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2374/2374370.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input class="inp1" type="text" />
+    <input class="inp2" type="text" />
+    <button class="main-button">Oblicz</button>
+    <p class="main-p"></p>
+    <div class="container">
+        <div class="calculator">
+            <input id="main-display" value="0" disabled>
+            <ul class="buttons">
+                <li class="col-purp delete-all">AC</li>
+                <li class="col-purp multiply">*</li>
+                <li class="col-purp divide">/</li>
+                <li class="backspace bg-purp delete"><img src="backspace.png"/></li>
+                <li class="one number">1</li>
+                <li class="two number">2</li>
+                <li class="three number">3</li>
+                <li class="bg-purp plus">+</li>
+                <li class="four number">4</li>
+                <li class="five number">5</li>
+                <li class="six number">6</li>
+                <li class="bg-purp minus">-</li>
+                <li class="seven number">7</li>
+                <li class="eight number">8</li>
+                <li class="nine number">9</li>
+                <li class="bg-purp power">^</li>
+                <li class="point">.</li>
+                <li class="zero number">0</li>
+                <li class="bg-purp equeal">=</li>
+            </ul>
+        </div>
+        <div class="watch">
+            <div>
+                <p id="day"></p>
+                <label for="day">day</label>
+            </div>
+            <span>:</span>
+            <div>
+                <p id="hour"></p>
+                <label>hour</label>
+            </div>
+            <span>:</span>
+            <div>
+                <p id="minutes"></p>
+                <label>minutes</label>
+            </div>
+            <span>:</span>
+            <div>
+                <p id="seconds"></p>
+                <label>seconds</label>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

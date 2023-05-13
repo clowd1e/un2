@@ -1,0 +1,124 @@
+body {
+    background: rgb(64,16,74);
+    background: linear-gradient(148deg, rgba(64,16,74,1) 0%, rgba(156,79,173,1) 60%);
+    background-repeat: no-repeat;
+    height: 750px;
+}
+.main-p {
+    color: white;
+}
+li {
+    list-style: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+ul {
+    padding: 0;
+}
+.main-button {
+    width: 50px;
+    height: 20px;
+}
+.calculator {
+    width: 339px;
+    height: 590px;
+    border: 10px solid white;
+    border-radius: 20px;
+    background-color: rgb(42, 46, 55);
+}
+#main-display {
+    width: 339px;
+    background-color: rgb(42, 46, 55);
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-right: 5px;
+}
+.buttons {
+    display: grid;
+    row-gap: 2.5px;
+    column-gap: 2.5px;
+    width: 330px;
+    height: 350px;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+}
+.buttons li {
+    background-color: rgb(47, 54, 70);
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+}
+.buttons li:last-child {
+    grid-column-start: 4;
+}
+.buttons li:active {
+    background-color: rgb(255, 181, 43);
+}
+.backspace img {
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+}
+.buttons .bg-purp {
+    background-color: rgb(196, 91, 220);
+}
+.buttons .col-purp {
+    color: rgb(129, 89, 161);
+}
+.watch {
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px black;
+    width: 555px;
+    height: 160px;
+    background-color: rgb(9, 9, 9);
+    margin-bottom: 220px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 1200px;
+    margin-left: 200px;
+}
+.watch div {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.watch p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+.watch span {
+    color: rgb(90, 90, 90);
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.watch label {
+    color: rgb(90, 90, 90);
+    font-family: 'Montserrat', sans-serif;
+}
